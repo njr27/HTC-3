@@ -1,0 +1,159 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #323730;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 31px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 37px;
+    color: #3F3D56;
+}
+
+h2{
+    font-size: 16px;
+    color: #5A6256;
+    text-align: center;
+    margin: 0px 42px 28px 42px;
+}
+
+.content{
+    width: 396px;    
+}
+
+.content-index{
+    width: 515px;    
+}
+
+.content-register h1, .content-register .box-text{
+    margin-bottom: 22px;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+.box-text label{
+    margin-bottom: 8px;
+}
+
+
+
+.content input{
+    padding: 15px;
+    border: 1px solid #ABB3A8;
+}
+
+.content ::placeholder{
+    color: #ABB3A8;
+}
+
+.content a{
+    text-decoration: none;
+    color: #1DB9E0;
+}
+
+.content a:hover{
+    text-decoration: none;
+    color: #0b677e;
+}
+
+form{
+    margin: 68px 0px 174px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.box-text, .box-bday, .box-coutry{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 39px;
+}
+
+
+.box-bday, .box-coutry{
+    margin-bottom: 0px;
+}
+
+/*analisar a necessidade do b+b*/
+.box-text + .box-text{
+    margin-bottom: 27px;
+}
+
+button{
+    width: 100%;
+    margin-bottom: 32px;
+    padding: 14px;
+    border: none;
+    color: white;
+    background-color: #3F3D56;
+    font-size: 16px;
+}
+
+.options, .area-keepconected, .checkbox-EULA{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.bday-coutry{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.content span{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-coutry select{ 
+    border: 1px solid #ABB3A8;
+    color: #ABB3A8;
+    height: 49px;
+    width: 208px;
+}
+
+.box-bday input{
+    width: 170px;
+       
+}
+
+
+.genre-options{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.genre-options label, .options label, .checkbox-EULA label{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox-EULA label, .area-keepconected label{    
+    margin-left: 24px;
+}
+
+.radio-button{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.check-box{    
+    position: absolute; 
+    height: 18px;
+    width: 18px;
+}
