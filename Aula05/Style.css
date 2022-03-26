@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #61656D;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+body{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container{
+    margin: 24px 63px;
+}
+
+.box{
+    background-color: #FFFFFF;
+    width: 798px;
+    padding-left: 27px;
+    padding-right: 26px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    margin-bottom: 37px;
+}
+
+.box + .box{
+
+    margin-bottom: 16px;
+}
+
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-box{
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 118px;
+    height: 85px;
+    
+}
+
+.info-box2{
+    width: 238px;
+    flex-direction: row;
+    padding-left: 19px;
+}
+
+.info-box img{
+    margin-bottom: 4px;
+}
+
+.info-box2 img{
+    margin-right: 11px;
+}
+
+.info-box2 .label2-icon{
+    text-transform: none;
+    text-align: right;
+}
+
+.info-box2 .label1-icon{
+    text-transform: none;
+}
+
+.img-main{
+    width: 745px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.info-box2 .text-profile{
+    align-items: flex-end;
+}
+
+
+.box li{
+    margin-bottom: 20px;
+    list-style-position: inside;   
+    font-size: 20px; 
+}
+
+.item-ol{
+    font-size: 14px;
+}
+
+.marcador li{
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+
+.add-info{
+    background-color: #F0F0F0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 7px;
+    margin-bottom: 16px;
+}
+
+
+h1{
+    font-weight: 700;
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+h2{
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.title-box h3{
+    font-weight: 700;
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.title-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.title-box img{
+    margin-right: 8px;
+}
+
+.label1-icon{
+    text-transform: uppercase;
+}
+
+.label2-icon{
+    text-transform: uppercase;
+    color: #FF6A28;
+    font-weight: 700;
+       
+}
+
